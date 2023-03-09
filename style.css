@@ -40,7 +40,7 @@ body {
   top: 0;
   left: 0;
   z-index: 100;
-  background: rgba(245, 245, 245, 0.97);
+  background: rgb(215 214 214 / 97%);
 }
 
 .header.small {
@@ -56,7 +56,7 @@ body {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background-image: url("https://s13.postimg.org/krfgo8hdz/ACEM_Logo.png");
+  background-image: url("https://i.ibb.co/VJmk15c/logo.png");
   float: left;
   height: 40px;
   width: 170px;
@@ -82,7 +82,7 @@ ul.nav li a {
 }
 
 ul.nav li:hover a {
-  color: rgba(214, 195, 128, 0.75);
+  color: rgba(28, 29, 108, 0.75);
 }
 
 ul.nav li a {
@@ -103,7 +103,7 @@ ul.nav li a {
 }
 
 .section .footer {
-  background: rgba(214, 195, 128, 0.75);
+  background: rgb(0 0 0 / 75%);
 }
 
 .slidercontent {
@@ -246,7 +246,7 @@ text-align: center;
 }
 
 .col:hover>.icon {
-  background: #36a4f4;
+  background: #54a7df;
   color: white;
 }
 
@@ -388,7 +388,7 @@ h3 {
 
   .header {
     height: auto;
-    background: #eee;
+    background: rgb(228 228 228 / 97%);
   }
 
   #logo {
