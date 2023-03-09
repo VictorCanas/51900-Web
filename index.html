@@ -4,37 +4,145 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>PreEntrega1-Canas</title>
+    <link rel="shorcut icon" href="img/favicon.png" type="image/x-icon" />
+    <link
+      href="http://fonts.googleapis.com/css?family=Open+Sans|Roboto|Roboto+Slab:300,400"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
+  <style>
+    input[type=text] {
+        width: 130px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+        background-position: 10px 10px;
+        background-repeat: no-repeat;
+        padding: 12px 20px 12px 40px;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;
+    }
+    input[type=text]:focus {
+        width: 45%;
+    }
+    </style>
   <body>
-    <h1>Encabezado 1</h1>
-    <h2>Encabezado 2</h2>
-    <h3>Encabezado 3</h3>
-    <h4>Encabezado 4</h4>
-    <h5>Encabezado 5</h5>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
-      perferendis, consequuntur voluptatum beatae aspernatur quia quos commodi
-      consequatur, aliquam quam cumque nemo enim porro labore? Magnam
-      reprehenderit quam nesciunt rem.
-    </p>
-    <!-- contenedores -->
-    <div>Soy una caja divisora</div>
-    <!-- contenedores semanticos -->
-    <nav>Soy un botonera</nav>
-    <header>Soy el encavezado de la pantalla o de una section</header>
-    <main>
-      <section>
-        <p>soy secction // novedades</p>
-        <article>
-          <p>novedad n1</p>
-        </article>
-      <section>
-        soy otra section //quienes somos
-      </section>
-    </main>
-    <aside>
-      <p>Contenido no relevante con main</p>
-    </aside>
+    <nav>
+      <div class="hold">
+        <div class="header">
+          <div class="container">
+            <div id="logo"></div>
+            <ul class="nav">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="information.html">Informacion</a></li>
+              <li><a href="resources.html">Recursos</a></li>
+              <li><a href="homework.html">Tarea</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- termina nav -->
+    <header>
+      <div class="section">
+        <div class="slider">
+          <div class="container slidercontent">
+            <h1 class="hero">Bioblioteca Nacional de Colombia</h1>
+            <form>
+              <input type="text" name="search" placeholder="Buscar.." />
+            </form>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- termina header -->
+     <!-- section info -->
+    <div class="section">
+      <div class="container">
+        <div class="col three">
+          <h1 class="icon">
+            <img
+              src="http://icons.iconarchive.com/icons/icons8/windows-8/512/Animals-Dog-House-icon.png"
+              alt="Address logo"
+              style="width: 50px; height: 50px"
+            />
+          </h1>
+          <h1 class="service">Dirección</h1>
+          <p>
+            Cra. 5 No. 11-50 <br />
+            Cali - Valle - Colombia <br />3113017238
+          </p>
+        </div>
+        <div class="responsivegroup"></div>
+        <div class="col three">
+          <h1 class="icon">
+            <img
+              src="http://www.freeiconspng.com/uploads/timer-icon-8.png"
+              alt="Hours logo"
+              style="width: 50px; height: 50px"
+            />
+          </h1>
+          <h1 class="service">Horario de Atención</h1>
+          <p>
+            Lunes a Viernes de 8:30 AM a 6:00 PM<br /> Sábado de 9:00 AM a 5:00 PM.<br />Domingos Cerrados
+          </p>
+        </div>
+        <div class="col three">
+          <h1 class="icon">
+            <img
+              src="http://simpleicon.com/wp-content/uploads/star.png"
+              alt="Mission logo"
+              style="width: 50px; height: 50px"
+            />
+          </h1>
+          <h1 class="service">Quienes Somos</h1>
+          <p>
+            Contamos con 250 Proveedores y Editoriales entre las cuales están las más representativas del mundo editorial en lengua española e inglesa.
+          </p>
+        </div>
+        <div class="group"></div>
+      </div>
+    </div>
+   <!-- section Equipo -->
+    <div class="section bg">
+      <div class="container">
+          <h1>Nuestra Historia</h1>
+          <h3>En la Bioblioteca Nacional de Colombianos destacamos también por la novedosa integración de heladerías y cafeterías dentro de nuestras sedes (en las de Cali particularmente); en la actualidad contamos con 31 Agencias a nivel Nacional, librerías en seis ciudades (Bogotá, Cali, Medellín, Barranquilla, Cartagena yPereira) situadas en los mejores centros comerciales de cada una de estas ciudades, y con la Tienda Virtua</h3>
+        <h1>Nuestro Equipo</h1>
+        <div class="col three bg nopad pointer">
+          <div class="imgholder"> 
+            <img src="L1.jpg" alt="Librarian 1" style="width:365px;height:300px;"></div>
+          <h1 class="feature">Bibliotecaria</h1>
+          <h3>Mrs. Jimena Hernandez</h3>
+        </div>
+        <div class="col three bg nopad pointer">
+          <div class="hovereffect">
+              <img src="L2.jpg" alt="Librarian 2" style="width:365px;height:300px;"></div>
+          <h1 class="feature">Bibliotecaria</h1>
+          <h3>Mrs. Olivia Jones</h3>
+        </div>
+        <div class="col three bg nopad pointer">
+          <div class="imgholder">
+              <img src="L3.jpg" alt="Librarian 3" style="width:365px;height:300px;"></div>
+          <h1 class="feature">Bibliotecario</h1>
+          <h3>Mr. Mike Peterson</h3>
+        </div>
+        <div class="group"></div>
+      </div>
+    </div>
+ <!-- section footer -->
+    <div class="section">
+      <div class="footer">
+        <div class="container white">
+            <h1><a href="index.html">Home<h1>
+            <h2 class="reset"><a href="https://www.linkedin.com/in/vscanas">Copyright Info © 2023 - Victor Canas</a> &nbsp</h2>    
+            <h2>Bioblioteca Nacional de Colombia: <a></a><a href="mailto:victorcanasint@gmail.com?Subject=Bioblioteca Nacional de Colombia" target="_top">victorcanasint@gmail.com</h2>           
+       </div> 
+      </div>
+    </div>   
   </body>
 </html>
