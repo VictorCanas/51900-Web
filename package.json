@@ -1,0 +1,25 @@
+{
+  "name": "51900-web",
+  "version": "1.0.0",
+  "description": "clase12",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass",
+    "sass:watch": "sass --watch scss/main.scss  css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VictorCanas/51900-Web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VictorCanas/51900-Web/issues"
+  },
+  "homepage": "https://github.com/VictorCanas/51900-Web#readme",
+  "dependencies": {
+    "sass": "^1.60.0"
+  },
+  "devDependencies": {}
+}

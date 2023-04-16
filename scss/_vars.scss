@@ -1,0 +1,19 @@
+//variables globales
+//Las varialbes se difinen con $
+
+//colores
+$mainColor: deeppink;
+$secondaryColor: #ede2e2;
+$keyColor: violet;
+
+//fonts
+$mainFont: 'Roboto', sans-serif;
+$textSm: 1em;
+// $textMd:
+// $textLg:
+// $textBold:
+
+body {
+  background-color: $mainColor;
+  font-size:$textSm
+}
